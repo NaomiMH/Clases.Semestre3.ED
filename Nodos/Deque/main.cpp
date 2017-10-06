@@ -1,7 +1,7 @@
 /**
  * Naomi Macias Honti a01282098
  * 3 de octubre 2017
- * Tiempo no estimado.
+ * 1 hr 30 min.
  * Utiliza la clase nodos y Deque, donde los nodos tiene un apuntador al nodo anterior y siguiente. La clase deque, crea una lista de nodos y hace varias funciones.
  */
 #include <iostream>
