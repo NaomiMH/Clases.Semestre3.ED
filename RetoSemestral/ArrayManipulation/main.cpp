@@ -12,10 +12,10 @@ using namespace std;
 
 int main()
 {
-    int n,m,a,b,k;
+    long int n,m,a,b,k;
     cin >> n >> m;
     if(n>=3 && m>=1 && n<=pow(double(10),double(7)) && m<=2*pow(double(10),double(5))){
-        int arr[n]={0};
+        long int arr[n]={0};
         for(int cont=0;cont<m;cont++){
             cin >> a >> b >> k;
             if(b<=n && a>=1 && k>=0 && k<=pow(double(10),double(9))){
@@ -25,7 +25,7 @@ int main()
                 }
             }
         }
-        int mayor=arr[0];
+        long int mayor=arr[0];
         for(int cont=1;cont<n;cont++){
             if(mayor<arr[cont])
                 mayor=arr[cont];
