@@ -39,6 +39,7 @@ class heap
                 int tem;
                 
                 while(comp>0 && arr[comp]<num){
+                // se puede cambiar este ^ signo para que se ordene como heap max (el padre es mayor a sus hijos) o heap min (el padre es menor a sus hijos)
                     tem=arr[comp];
                     arr[comp]=num;
                     arr[cont]=tem;
